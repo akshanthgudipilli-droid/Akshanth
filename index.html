@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <title>Akshanth Portfolio</title>
@@ -7,73 +7,72 @@
   <style>
     body {
       margin: 0;
-      font-family: Arial;
-      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #000428, #004e92);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
       color: white;
-      text-align: center;
-    }
-
-    .container {
-      padding: 40px 20px;
-    }
-
-    img {
-      width: 140px;
-      border-radius: 50%;
-      border: 4px solid white;
-    }
-
-    h1 {
-      margin-top: 15px;
-      font-size: 30px;
     }
 
     .card {
-      background: rgba(255,255,255,0.1);
-      margin: 20px auto;
-      padding: 20px;
-      border-radius: 15px;
-      width: 90%;
-      max-width: 400px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(15px);
+      border-radius: 20px;
+      padding: 30px;
+      width: 320px;
+      text-align: center;
+      box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    }
+
+    img {
+      width: 120px;
+      border-radius: 50%;
+      border: 3px solid white;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      margin: 10px 0;
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #ddd;
     }
 
     .btn {
       display: block;
-      margin: 10px auto;
+      margin-top: 15px;
       padding: 12px;
-      width: 200px;
-      background: white;
-      color: black;
       border-radius: 25px;
       text-decoration: none;
+      background: white;
+      color: black;
       font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #00c6ff;
+      color: white;
     }
   </style>
 </head>
 
 <body>
 
-  <div class="container">
+  <div class="card">
     <img src="ICON8674.jpg" />
 
     <h1>Akshanth Naidu</h1>
-    <p>💼 Entrepreneur | 💪 Fitness</p>
+    <p>Entrepreneur | Fitness</p>
 
-    <div class="card">
-      <h2>About Me</h2>
-      <p>I am interested in business, earning and self growth.</p>
-    </div>
+    <p>I am interested in business, earning and self growth.</p>
 
-    <div class="card">
-      <h2>Skills</h2>
-      <p>Trading | Business Ideas | Communication</p>
-    </div>
-
-    <div class="card">
-      <h2>Connect Me</h2>
-      <a href="https://instagram.com/akshanth_naidu" class="btn">Instagram</a>
-    </div>
-
+    <a href="https://instagram.com/akshanth_naidu" class="btn">Instagram</a>
   </div>
 
 </body>
